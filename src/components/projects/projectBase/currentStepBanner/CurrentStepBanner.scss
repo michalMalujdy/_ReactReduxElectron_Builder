@@ -1,0 +1,25 @@
+﻿.current-step-banner {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+
+  &_loading {
+    font-size: 2.5rem;
+  }
+  
+  &_content {
+    padding-left: 3rem;
+    
+    & > &_spin {
+      margin-right: 0.5rem;
+    }
+  }
+  
+  transition: opacity 0.5s ease-out;
+  
+  &--hidden {
+    opacity: 0;
+  }
+}

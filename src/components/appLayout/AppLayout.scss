@@ -1,0 +1,48 @@
+﻿@import "../../common/styles/global";
+
+$header-height: 3.5rem;
+
+.app-layout {
+  position: sticky;
+  top: 0;
+  background-color: #7cb305;
+  
+  &_header {
+    position: fixed;
+    width: 100%;
+    height: $header-height !important;
+    z-index: 1000;
+    
+    &_brand {
+      display: flex;
+      align-items: center;
+
+      &_logo {
+        margin-top: -25px;
+      }
+
+      &_name {
+        color: white;
+      }
+    }
+  }
+  
+  &_sider {
+    background: #fff !important;
+    position: fixed !important;
+    z-index: 1000;
+    height: 100vh;
+    margin-top: $header-height !important;
+  }
+
+  &_content {
+    $padding-vertical: 3rem + $header-height;
+    padding: $padding-vertical 5rem;
+    margin-left: 200px;
+    height: 100%;
+
+    @media(max-width: $mobileBreakpoint) {
+      padding: 3rem 0.5rem;
+    }
+  }
+}

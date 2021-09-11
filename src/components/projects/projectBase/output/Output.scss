@@ -1,0 +1,21 @@
+﻿.output {
+  background-color: #FAFAFA;
+  min-height: 15rem;
+  font-family: Consolas, sans-serif;
+  padding: 10px;
+  max-height: 35rem;
+  overflow-y: scroll;
+  
+  &_log {
+    margin-bottom: 15px;
+    
+    &--internal {
+      font-weight: bold;
+      color: #1890FF;
+    }
+  }
+  
+  &_clearButton {
+    margin-top: 1.5rem;
+  }
+}
