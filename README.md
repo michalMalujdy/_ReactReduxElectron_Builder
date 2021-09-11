@@ -5,11 +5,19 @@ The purpose of the project was to easily and quickly build work projects which h
 
 <b>This repository does not contain any sensitive work-related data. Real project names and steps were substituted.</b>
 
-## Demo
-<img src="https://i.ibb.co/sFfXJYd/git-branch-demo.gif" alt="git-branch-demo" border="0">
-
 ## Live demo
-[Link](https://git-branch-formatter.web.app)
+### Multiple projects
+
+
+### Executing multiple selected steps
+[![Demo - executing multiple selected steps](https://i.ibb.co/fDsp4z2/preview-2.png)](https://www.youtube.com/watch?v=y3N30d-GitU "Demo - executing multiple selected steps")
+
+
+### Clear the output
+
+
+### Responsiveness - compact breakpoint
+
 
 ## Technology stack
 - React
